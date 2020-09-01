@@ -1,0 +1,6 @@
+print('======== exercicio 04 =======')
+print('Vamos caucular o seu Indice de Massa Corporal (IMC)')
+peso = float(input('Qual o seu peso atualmente? '))
+altura = float(input('E qual a sua altura? '))
+imc = peso / (altura * altura)
+print('Seu IC atual é de: ', imc)
