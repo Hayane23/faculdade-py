@@ -2,7 +2,7 @@ print('======== exercicio 04 =======')
 print('Vamos caucular o seu Indice de Massa Corporal (IMC)')
 peso = float(input('Qual o seu peso atualmente? '))
 altura = float(input('E qual a sua altura? '))
-imc = peso / (altura * altura)
+imc = round(peso / (altura * altura),2)
 if imc < 17:
     print('Seu IC atual é de: ', imc, 'Você está muito abaixo do peso.')
 elif imc >= 17 and imc < 18.50:
